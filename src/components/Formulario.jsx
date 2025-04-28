@@ -81,8 +81,8 @@ export default function Formulario(){
         <br />
         <button className="boton-1" type="button">Si, quiero registrarme.</button>
       </div>
-      
-      
+     
+    
       </>
   
   

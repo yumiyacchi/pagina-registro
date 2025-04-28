@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import './App.css'
 import Formulario from './components/Formulario'
 import { BrowserRouter } from 'react-router-dom';
+import PaginaBanking from './components/PaginaBanking';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
 
     <div>
       <Formulario/>
+      <PaginaBanking/>
     </div>
 
   )
