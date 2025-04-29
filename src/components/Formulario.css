@@ -162,3 +162,20 @@ input {
     text-decoration: underline;
 }
 
+footer {
+
+    text-align: center;
+    background-color: #57a8d1;
+    list-style: none;
+    text-decoration: none;
+    background: linear-gradient(135deg, rgba(143, 191, 249, 0.4), rgba(111, 152, 230, 0.178));
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(20px);
+    border-radius: 7px;
+    overflow-y: auto;
+    overflow-x: auto;
+    margin-top: 2ch;
+    padding-top: 2ch;
+
+
+}

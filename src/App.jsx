@@ -1,24 +1,26 @@
 import { Fragment } from 'react'
 import './App.css'
 import Formulario from './components/Formulario'
-import { BrowserRouter } from 'react-router-dom';
-import PaginaBanking from './components/PaginaBanking';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from './components/Login';
+import Ecommerce from './components/Ecommerce';
+
 
 function App() {
 
   return (
 
-    <div>
-      <Formulario/>
-      <PaginaBanking/>
-    </div>
+      <Routes>
+        <Route path="/registro" element={<Formulario />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/ecommerce" element={<Ecommerce />} />
+        
+    
+      </Routes>
 
-  )
+    
+  );
   
 }
-
-
-
-
 
 export default App

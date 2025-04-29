@@ -1,5 +1,6 @@
 import React from "react"
 import './Formulario.css';
+import { Link } from "react-router-dom";
 
 export default function Formulario(){
 
@@ -70,6 +71,10 @@ export default function Formulario(){
         <label htmlFor=""></label>
         <input type="text" placeholder="Ej: 99999999" maxLength="9" />
         <br />
+        <p className="existente">
+          ¿Ya tienes una cuenta?{""}
+          <Link to="/" className=""></Link>
+        </p>
         <label htmlFor="">¿Quieres registrarte como vendedor?</label>
         <input type="checkbox" name="" id="" />
         <br />
@@ -80,7 +85,18 @@ export default function Formulario(){
         <input type="checkbox" name="" id="" />
         <br />
         <button className="boton-1" type="button">Si, quiero registrarme.</button>
+        <p className="already">
+          ¿Ya tienes una cuenta? {""}
+          <Link to="/login" className=""> Inicia sesión aquí</Link>
+        </p>
       </div>
+      <footer>
+        <ul>
+          <li>Ecomarket y BancoSimple</li>
+          <li>Todos los derechos reservados</li>
+          <li>©Team 7, 2025</li>
+        </ul>
+      </footer>
      
     
       </>
